@@ -1,4 +1,17 @@
+# streamlit
+# ultralytics
+# opencv-python-headless
+# Pillow
+
 streamlit
 ultralytics
 opencv-python-headless
-Pillow
+pillow
+numpy
+matplotlib
+scipy
+pyyaml
+tqdm
+imageio
+imageio-ffmpeg
+
