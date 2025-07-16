@@ -22,14 +22,15 @@
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
-vision_agrichat/
-├── app.py # Main Streamlit application
-├── best.pt # YOLOv12n trained weights
-├── requirements.txt # Python dependencies
-├── render.yaml # Render deployment configuration
-└── README.md # Project documentation
+    vision_agrichat/
+    ├── app.py             # Main Streamlit application
+    ├── best.pt            # YOLOv12n trained weights
+    ├── requirements.txt   # Python dependencies
+    ├── render.yaml        # Render deployment configuration
+    └── README.md          # Project documentation
+
 
 ---
 
