@@ -4,3 +4,10 @@ opencv-python-headless
 pillow
 numpy
 scikit-learn
+
+
+textblob
+scipy
+pytesseract
+nltk
+pandas
