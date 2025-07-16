@@ -1,4 +1,6 @@
 streamlit
 ultralytics
-opencv-python
-Pillow
+opencv-python-headless
+pillow
+numpy
+scikit-learn
