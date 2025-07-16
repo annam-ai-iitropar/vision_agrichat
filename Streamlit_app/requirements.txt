@@ -4,7 +4,7 @@ opencv-python-headless
 pillow
 numpy
 scikit-learn
-os
+
 
 textblob
 scipy
