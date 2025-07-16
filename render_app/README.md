@@ -22,7 +22,7 @@
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 vision_agrichat/
 ├── app.py # Main Streamlit application
