@@ -19,11 +19,11 @@ class_descriptions = {
 }
 
 # Streamlit page config
-st.set_page_config(page_title="🌿 CroPulse AI- The Smart Eye for Crops", layout="wide")
+st.set_page_config(page_title="🌿 Vision_agrichat - Crop Disease Detection App", layout="wide")
 
 # Header
 st.markdown(    
-    "<h2 style='text-align: center; color: #228B22;'>🌿 CroPulse AI- The Smart Eye for Crops</h2>",
+    "<h2 style='text-align: center; color: #228B22;'>🌿 Vision_agrichat - Crop Disease Detection App</h2>",
     unsafe_allow_html=True
 )
 st.markdown(
