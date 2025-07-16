@@ -34,7 +34,7 @@ st.markdown(
 # Sidebar - Upload Image
 with st.sidebar:
     st.header("📤 Upload Image")
-    uploaded_file = st.file_uploader("Choose a leaf or crop image", type=["jpg", "jpeg", "png","JPG","JPEG","PNG"])
+    uploaded_file = st.file_uploader("Choose a leaf or crop image", type=["jpg", "jpeg", "png"])
 
 # Layout
 left_col, right_col = st.columns(2)
