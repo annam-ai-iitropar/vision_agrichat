@@ -1,6 +1,5 @@
-streamlit
-ultralytics
-opencv-python-headless
-pillow
-numpy
-scikit-learn
+streamlit==1.35.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+Pillow==10.2.0
+ultralytics==8.2.1
