@@ -1,5 +1,11 @@
-streamlit==1.35.0
-opencv-python-headless
-numpy==1.26.4
-Pillow
-ultralytics==8.2.1
+streamlit
+ultralytics
+torch
+numpy
+opencv-python
+pillow
+#streamlit==1.35.0
+#opencv-python-headless
+#numpy==1.26.4
+#Pillow
+#ultralytics==8.2.1
