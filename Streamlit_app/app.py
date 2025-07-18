@@ -6,6 +6,12 @@ from ultralytics import YOLO
 import numpy as np
 import os
 
+from ultralytics.nn.tasks import DetectionModel
+from torch.serialization import add_safe_globals
+
+# Allow PyTorch to safely load custom YOLO class
+add_safe_globals([DetectionModel])
+
 # Load YOLO model
 model = YOLO("best.pt")
 
@@ -34,7 +40,7 @@ st.markdown(
 # Sidebar - Upload Image
 with st.sidebar:
     st.header("📤 Upload Image")
-    uploaded_file = st.file_uploader("Choose a leaf or crop image", type=["jpg", "jpeg", "png","JPG","JPEG","PNG"])
+    uploaded_file = st.file_uploader("Choose a leaf or crop image", type=["JPG","JPEG","PNG"])
 
 # Layout
 left_col, right_col = st.columns(2)
@@ -95,4 +101,3 @@ st.markdown(
     "<hr><p style='text-align: center; font-size: 13px;'>🚀 Smart Agriculture System | Powered by ANNAM.AI</p>",
     unsafe_allow_html=True
 )
-
