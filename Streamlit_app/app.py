@@ -6,6 +6,12 @@ from ultralytics import YOLO
 import numpy as np
 import os
 
+from ultralytics.nn.tasks import DetectionModel
+from torch.serialization import add_safe_globals
+
+# Allow PyTorch to safely load custom YOLO class
+add_safe_globals([DetectionModel])
+
 # Load YOLO model
 model = YOLO("best.pt")
 
