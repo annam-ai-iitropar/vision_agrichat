@@ -46,8 +46,15 @@ Render.com for deployment
 🔍 Sample Prediction
 
 Uploading a maize leaf with powdery mildew returns:
+
 🧪 Class: Powdery Mildew
+
 🔢 Confidence: 94.20%
+
 📝 Description: White powdery spots on leaf surfaces.
 
 ---
+🌐 Live App: https://vision-agrichat-2.onrender.com/
+
+---
+
